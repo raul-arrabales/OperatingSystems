@@ -1,0 +1,10 @@
+version "0.1"
+package "myScript"
+purpose "OS assignment"
+
+# Options
+option "Directory" d "Input Directory" string required
+option "ObjectType" t "" string 
+option "String" c "File Name Match" string 
+option "Perms" p "File Permissions" string
+option "Action" a "Action" string required
