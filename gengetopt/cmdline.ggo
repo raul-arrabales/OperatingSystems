@@ -1,0 +1,9 @@
+version "1.0"
+package "ssoo"
+purpose "OS Assignment"
+
+# Options: 
+
+option "directory" k "directory-to-fetch" optional string default="."
+
+option "file-type" t "file-type-option" optional string 
